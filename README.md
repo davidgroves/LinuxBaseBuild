@@ -26,6 +26,7 @@ Everything here assumes Ubuntu/Debian. Some files may be in different places on 
 ## Sudo
 
 - Make sure the appropriate users are configured in sudoers with `visudo`
+- You should do this by putting the users in a group, and enabled a group in sudoers.
 
 # Boot Loader / Drive Encryption
 
