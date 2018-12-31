@@ -11,7 +11,7 @@ Everything here assumes Ubuntu/Debian. Some files may be in different places on 
 
 - Set password rules in `/etc/pam.d/common-password`.
 - A line like this will require a password to be at least 10 characters long, one lowercase character, one uppercase character and one digit. 
-- `# password requisite pam_cracklib.so minlength=10 lcredit=1 ucredit=1 dcredit=1`
+- `password requisite pam_cracklib.so minlength=10 lcredit=1 ucredit=1 dcredit=1`
 
 ## Password Expiry
 
